@@ -1,5 +1,12 @@
 # @cloudflare/next-on-pages
 
+## 1.6.1
+
+### Patch Changes
+
+- f764fff: Fix `process.env` not being enumerable due to being a proxy.
+- c06b437: Normalize the injected function entrypoints for Windows.
+
 ## 1.6.0
 
 ### Minor Changes
